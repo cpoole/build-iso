@@ -211,7 +211,8 @@
 	url = https://github.com/vyos/vyos-iptables.git
 [submodule "pkgs/linux-image"]
 	path = pkgs/linux-image
-	url = https://github.com/vyos/vyos-kernel.git
+    url = https://github.com/torvalds/linux.git
+    branch = 69973b830859bc6529a7a0468ba0d80ee5117826
 [submodule "pkgs/vyatta-watchdog"]
 	path = pkgs/vyatta-watchdog
 	url = https://github.com/vyos/vyatta-watchdog.git
